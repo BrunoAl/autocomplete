@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  --gray-1: #222222;
+  --gray-2: #717171;
+  --gray-3: rgb(238, 237, 237);
+  --gray-4: rgb(247, 247, 247);
+
+  /* Font sizes */
+  --font-size-xm: 0.8rem;
+  --font-size-sm: 1.2rem;
+  --font-size-md: 1.4rem;
+  --font-size-lg: 1.46rem;
+
+  /* Spacing ratios */
+  --spacing-ratio-sm: 0.8rem;
+  --spacing-ratio-md: 1.2rem;
+  --spacing-ratio-lg: 2.4rem;
+  --spacing-ratio-xl: 4rem;
+
+  /* Border ratios */
+  --border-ratio-md: 1.2rem;
+  --border-ratio-lg: 2.4rem;
+}
