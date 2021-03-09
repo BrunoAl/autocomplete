@@ -24,8 +24,8 @@ export default function App() {
             <ul {...getMenuProps()} css={menuStyles}>
               {isOpen &&
                 inputValue &&
-                terms
-                  .filter(item => item.toLowerCase().startsWith(inputValue.toLowerCase()))
+                [...new Set(terms)]
+                  .filter(item => item.toLowerCase().includes(inputValue.toLowerCase()))
                   .map((term, index) => (
                     <li
                       key={term}
