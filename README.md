@@ -8,6 +8,10 @@ A simple autocomplete.
     `yarn && yarn start` or `npm install && npm start`
 ```
 
+### Deployed version
+
+https://vigorous-hopper-b69ca9.netlify.app/
+
 ## Stack
 
 - React
