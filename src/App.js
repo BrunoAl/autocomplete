@@ -7,7 +7,7 @@ import 'styled-components/macro';
 export default function App() {
   return (
     <div css={comboboxStyles}>
-      <Downshift termToString={term => (term ? term.value : '')} className="autocomplete">
+      <Downshift className="autocomplete">
         {({ getInputProps, getItemProps, getMenuProps, getLabelProps, inputValue, isOpen }) => (
           <div>
             <div className="autocomplete__input-area">
